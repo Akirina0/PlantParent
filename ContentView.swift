@@ -6,10 +6,10 @@
 //
 
 import SwiftUI
-
+@main
 struct ContentView: View {
     var body: some View {
-        TabBarView ()
+        RootTabView()   // shows the 5-tab layout with Toolkit tab
     }
 }
 
